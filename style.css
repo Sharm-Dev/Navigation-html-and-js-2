@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border: 2px red solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+#logo{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#nav-links{
+    list-style: none;
+}
+
+#nav-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+#burger{
+    border: 2px red solid;
+    display: none
+}
